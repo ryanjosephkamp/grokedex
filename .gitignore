@@ -1,0 +1,33 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata/
+
+# Bundler
+Gemfile.lock
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Planning and drafts (internal)
+planning/
+drafts/
