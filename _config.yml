@@ -1,0 +1,43 @@
+title: Grokédex
+description: >-
+  The comprehensive Grok Encyclopedia and interactive user manual 
+  for Grok and the Grok app. Built collaboratively with Grok, 
+  featuring original insights, tips, and workflows.
+url: "https://ryanjosephkamp.github.io"
+baseurl: "/grokedex"
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: dark
+
+search_enabled: true
+
+# Top navigation links
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/ryanjosephkamp/grokedex"
+  "Full Project Plan":
+    - "https://github.com/ryanjosephkamp/grokedex/blob/main/GROKDEX_PROJECT_PLAN.md"
+
+# GitHub edit links (great for docs)
+gh_edit_link: true
+gh_edit_repository: "https://github.com/ryanjosephkamp/grokedex"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+
+# Exclude unnecessary files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - planning/
+  - drafts/
